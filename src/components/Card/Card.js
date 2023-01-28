@@ -45,7 +45,7 @@ export default function Card(props) {
 
                     <img src={getImgURL(show.image)} alt="Unavailable" />
                     <div className="info" >
-                        <h2 > Addtional Info </h2> 
+                        <h2 > Additional Info </h2> 
                         <ul >
                             <li > <strong> Status : </strong>{show["status"]} </li >
                             <li > < strong > Run Time : </strong>{show["runtime"]}</li >
